@@ -1,2 +1,2 @@
-# yt-bookmarks
-The time position saver for Youtube video.
+# yt-bookmarks (Firefox add-on)
+The time position saver for Youtube videos.
