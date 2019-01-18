@@ -1,0 +1,12 @@
+{
+  "name": "yt-bookmarks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "browserify ./src/content_index.js -o ./browser/content_bundle.js && browserify ./src/action_index.js -o ./browser/action_bundle.js",
+    "clean": "rm ./browser/content_bundle.js && rm ./browser/action_bundle.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
